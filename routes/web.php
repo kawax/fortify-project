@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::view('verified', 'welcome')->middleware('verified');
+
+Route::view('confirm', 'welcome')->middleware('password.confirm');

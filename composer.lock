@@ -1539,16 +1539,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.40.0",
+            "version": "2.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "6c7646154181013ecd55e80c201b9fd873c6ee5d"
+                "reference": "d9a76d8b7eb0f97cf3a82529393245212f40ba3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/6c7646154181013ecd55e80c201b9fd873c6ee5d",
-                "reference": "6c7646154181013ecd55e80c201b9fd873c6ee5d",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d9a76d8b7eb0f97cf3a82529393245212f40ba3b",
+                "reference": "d9a76d8b7eb0f97cf3a82529393245212f40ba3b",
                 "shasum": ""
             },
             "require": {
@@ -1624,7 +1624,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-09-11T19:00:58+00:00"
+            "time": "2020-09-23T08:17:37+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2518,16 +2518,16 @@
         },
         {
             "name": "revolution/fortify-bulma",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/fortify-bulma.git",
-                "reference": "669c23bc4cec065c4daf150602bb065dfeeca6a1"
+                "reference": "c82a273c68b27b70017ce84d1d9890ad2fa6c5d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/fortify-bulma/zipball/669c23bc4cec065c4daf150602bb065dfeeca6a1",
-                "reference": "669c23bc4cec065c4daf150602bb065dfeeca6a1",
+                "url": "https://api.github.com/repos/kawax/fortify-bulma/zipball/c82a273c68b27b70017ce84d1d9890ad2fa6c5d6",
+                "reference": "c82a273c68b27b70017ce84d1d9890ad2fa6c5d6",
                 "shasum": ""
             },
             "require": {
@@ -2564,7 +2564,7 @@
                 "fortify",
                 "laravel"
             ],
-            "time": "2020-09-23T08:24:20+00:00"
+            "time": "2020-09-23T11:47:23+00:00"
         },
         {
             "name": "revolution/fortify-uikit",
