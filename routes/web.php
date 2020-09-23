@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::view('verified', 'welcome')->middleware('verified');
+Route::view('verified', 'fortify-bulma::verify-email');
 
-Route::view('confirm', 'welcome')->middleware('password.confirm');
+Route::view('confirm', 'fortify-bulma::confirm-password');
