@@ -35,6 +35,8 @@
  * Date: 2020-05-04T22:49Z
  */
 
+/*! UIkit 3.5.7 | https://www.getuikit.com | (c) 2014 - 2020 YOOtheme | MIT License */
+
 /**
  * @license
  * Lodash <https://lodash.com/>
