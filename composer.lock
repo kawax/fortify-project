@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f5b769a3d32627a3cc29b45a91491ee",
+    "content-hash": "5919d7768ee730b82f194c325c0d5158",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2518,11 +2518,17 @@
         },
         {
             "name": "revolution/fortify-bootstrap4",
-            "version": "dev-master",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kawax/fortify-bootstrap4.git",
+                "reference": "5dedd225b96b60a7ae0303c7e2dbf160d76d5b06"
+            },
             "dist": {
-                "type": "path",
-                "url": "./lib/fortify-bootstrap4",
-                "reference": "1eea8691b3019dc5a354fe07dedb02337b35c888"
+                "type": "zip",
+                "url": "https://api.github.com/repos/kawax/fortify-bootstrap4/zipball/5dedd225b96b60a7ae0303c7e2dbf160d76d5b06",
+                "reference": "5dedd225b96b60a7ae0303c7e2dbf160d76d5b06",
+                "shasum": ""
             },
             "require": {
                 "illuminate/support": "^8.0",
@@ -2542,6 +2548,7 @@
                     "Revolution\\Fortify\\Bootstrap4\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2557,9 +2564,7 @@
                 "fortify",
                 "laravel"
             ],
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2020-09-27T01:05:32+00:00"
         },
         {
             "name": "revolution/fortify-bulma",

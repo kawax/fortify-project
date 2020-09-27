@@ -7,12 +7,6 @@
         "laravel"
     ],
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./lib/fortify-bootstrap4"
-        }
-    ],
     "require": {
         "php": "^7.3",
         "fideloper/proxy": "^4.2",
@@ -21,7 +15,7 @@
         "laravel/fortify": "^1.4",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "revolution/fortify-bootstrap4": "*",
+        "revolution/fortify-bootstrap4": "^1.0",
         "revolution/fortify-bulma": "^1.0",
         "revolution/fortify-uikit": "^1.0"
     },
