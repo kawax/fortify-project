@@ -28,7 +28,7 @@ class FortifyServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Fortify::viewPrefix('fortify-bulma::');
+        Fortify::viewPrefix('fortify-bootstrap4::');
 
         Fortify::createUsersUsing(CreateNewUser::class);
         Fortify::updateUserProfileInformationUsing(UpdateUserProfileInformation::class);

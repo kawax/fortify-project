@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f68b8b8c378567a0f13951b1774dad02",
+    "content-hash": "7f5b769a3d32627a3cc29b45a91491ee",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -458,16 +458,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.21",
+            "version": "2.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "563d0cdde5d862235ffe24a158497f4d490191b5"
+                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/563d0cdde5d862235ffe24a158497f4d490191b5",
-                "reference": "563d0cdde5d862235ffe24a158497f4d490191b5",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
+                "reference": "68e418ec08fbfc6f58f6fd2eea70ca8efc8cc7d5",
                 "shasum": ""
             },
             "require": {
@@ -512,7 +512,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2020-09-19T14:37:56+00:00"
+            "time": "2020-09-26T15:48:38+00:00"
         },
         {
             "name": "fideloper/proxy",
@@ -1628,16 +1628,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.10.1",
+            "version": "v4.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "1b479e7592812411c20c34d9ed33db3957bde66e"
+                "reference": "658f1be311a230e0907f5dfe0213742aff0596de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/1b479e7592812411c20c34d9ed33db3957bde66e",
-                "reference": "1b479e7592812411c20c34d9ed33db3957bde66e",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/658f1be311a230e0907f5dfe0213742aff0596de",
+                "reference": "658f1be311a230e0907f5dfe0213742aff0596de",
                 "shasum": ""
             },
             "require": {
@@ -1676,7 +1676,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2020-09-23T18:23:49+00:00"
+            "time": "2020-09-26T10:30:38+00:00"
         },
         {
             "name": "opis/closure",
@@ -2515,6 +2515,51 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+        },
+        {
+            "name": "revolution/fortify-bootstrap4",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./lib/fortify-bootstrap4",
+                "reference": "1eea8691b3019dc5a354fe07dedb02337b35c888"
+            },
+            "require": {
+                "illuminate/support": "^8.0",
+                "laravel/fortify": "^1.4",
+                "php": "^7.3||^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Revolution\\Fortify\\Bootstrap4\\Bootstrap4ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Revolution\\Fortify\\Bootstrap4\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "kawax",
+                    "email": "kawaxbiz@gmail.com"
+                }
+            ],
+            "description": "Laravel Fortify views for Bootstrap4",
+            "keywords": [
+                "bootstrap",
+                "fortify",
+                "laravel"
+            ],
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "revolution/fortify-bulma",
