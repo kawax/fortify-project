@@ -2568,22 +2568,25 @@
         },
         {
             "name": "revolution/fortify-bulma",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/fortify-bulma.git",
-                "reference": "1c7bcbd6fd65b7a733de94b9ae0a1861bb059062"
+                "reference": "9b824c1b3464a2fe3c9a57e5a84105c7ce05a5e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/fortify-bulma/zipball/1c7bcbd6fd65b7a733de94b9ae0a1861bb059062",
-                "reference": "1c7bcbd6fd65b7a733de94b9ae0a1861bb059062",
+                "url": "https://api.github.com/repos/kawax/fortify-bulma/zipball/9b824c1b3464a2fe3c9a57e5a84105c7ce05a5e5",
+                "reference": "9b824c1b3464a2fe3c9a57e5a84105c7ce05a5e5",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^8.0",
                 "laravel/fortify": "^1.4",
                 "php": "^7.3||^8.0"
+            },
+            "suggest": {
+                "revolution/laravel-pagination-bulma": "Pagination views."
             },
             "type": "library",
             "extra": {
@@ -2614,26 +2617,29 @@
                 "fortify",
                 "laravel"
             ],
-            "time": "2020-09-25T04:54:49+00:00"
+            "time": "2020-09-27T03:40:50+00:00"
         },
         {
             "name": "revolution/fortify-uikit",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/fortify-uikit.git",
-                "reference": "770ca6ccb94b4081b7246c2c4762fc015399f11d"
+                "reference": "9472b6494177ddd3a5e62d3c2b954dc1bfb5f6dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/fortify-uikit/zipball/770ca6ccb94b4081b7246c2c4762fc015399f11d",
-                "reference": "770ca6ccb94b4081b7246c2c4762fc015399f11d",
+                "url": "https://api.github.com/repos/kawax/fortify-uikit/zipball/9472b6494177ddd3a5e62d3c2b954dc1bfb5f6dc",
+                "reference": "9472b6494177ddd3a5e62d3c2b954dc1bfb5f6dc",
                 "shasum": ""
             },
             "require": {
                 "illuminate/support": "^8.0",
                 "laravel/fortify": "^1.4",
                 "php": "^7.3||^8.0"
+            },
+            "suggest": {
+                "revolution/laravel-pagination-uikit": "Pagination views."
             },
             "type": "library",
             "extra": {
@@ -2664,7 +2670,7 @@
                 "laravel",
                 "uikit"
             ],
-            "time": "2020-09-26T10:28:50+00:00"
+            "time": "2020-09-27T03:41:14+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
